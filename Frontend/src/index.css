@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eeedf2;
+}
+
+.topButton {
+  display: none ;
+}
+
+@media only screen and (max-width: 500px) {
+  .sidebar {
+    display: none;
+  }
+  .button {
+    height: 7rem !important;
+    width: 7rem !important;
+    margin: 0px;
+  }
+  .btnIcon {
+    font-size: 3rem !important;
+  }
+  .button > h3 {
+    font-size: 0.8rem;
+    text-wrap: pretty;
+  }
+  .home {
+    width: 100vw !important;
+  }
+  .home-buttons {
+    margin-top: 3rem;
+    margin-left: 0px;
+    width: 100vw !important;
+    justify-content: center;
+    flex-wrap: wrap !important;
+  }
+  .home1 {
+    margin-left: 0px !important;
+  }
+  .logout {
+    right: 10px;
+    display: none;
+  }
+  .chartBal {
+    width: 100vw !important;
+    height: 60vh !important;
+    flex-direction: column-reverse !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  .Chart {
+    width: 100vw !important;
+    height: 26vh !important;
+  }
+  .balContainer {
+    height: 15vh !important;
+    width: 70vw !important;
+  }
+  .balContainer > h2 {
+    font-size: 1.7rem !important;
+  }
+  .balContainer > h1 {
+    font-size: 1.7rem !important;
+  }
+  .trxTable {
+    width: 100vw !important;
+  }
+  .tableHead {
+    font-size: 1rem !important;
+  }
+  .recent {
+    margin-top: 1.5rem !important;
+    font-size: 1.9rem !important;
+  }
+  .mobileSideBar {
+    display: absolute;
+    /* display: none; */
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .topButton {
+    display: block;
+    position: fixed;
+    z-index: 1001;
+    top: 1rem;
+    float: right;
+    margin-right: 1rem;
+  }
+  
+
+  .loginPage{
+    min-height: 100vh !important;
+    padding-bottom: 1rem !important;
+    width: 100vw ;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    height: fit-content !important;
+  }
+  .loginLogo{
+    width: 50vw !important;
+    margin: 2rem !important;
+  }
+  .loginBox{
+    width: 100vw !important;
+  }
+  .loginForm{
+    width: 80% !important;
+    margin-left: 1rem;
+  }
+  .sendMoneyForm{
+    margin-left:2rem !important;
+  }
+  .sendMoneyHeading{
+    width: 80vw !important;
+    margin-top: 3rem !important;
+  }
+  .sendMoneyBox{
+    width: 90vw !important;
+  }
+  .amount-container{
+    width: 67vw !important;
+  }
+  .sendMoneyAmount{
+    width: 60vw !important;
+  }
+  .addBankAcc-heading{
+    margin-top: 3rem !important;
+    margin-left: 1.8rem !important;
+  }
+  .addBankAcc-textfield{
+    margin-left: 1rem !important;
+  }
+  .changePasswordContainer{
+    margin-left:0.1rem !important;
+  }
+  .changePasswordHeading{
+    width: 80vw !important;
+    margin-top: 3rem !important;
+  }
+  .changePasswordBox{
+    width: 80vw !important;
+    margin-left: 2rem !important;
+  }
+  .contact-box{
+    margin-left: 30px !important;
+  }
+  .contact-heading{
+    margin-top: 3rem !important;
+  }
+  .service-container{
+    margin-left: 40px !important;
+  }
+  .service-heading{
+    margin-top: 3rem !important;
+  }
+  .faq-heading{
+    font-size: 1.5rem !important;
+    margin-top: 3.5rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .statementTable{
+    width: 100vw !important;
+  }
+  .statementHead{
+    font-size: 1rem !important;
+  }
+  .statementHeading{
+    margin-top: 3rem !important;
+  } 
+  .receiveMoneyForm{
+    margin-left: 2rem !important;
+  }
+  .receiveMoneyHeading{
+    margin-top: 3rem !important;
+  }
+  .toast-container{
+    width: 50%;
+    margin-left: auto;
+  }
+}
